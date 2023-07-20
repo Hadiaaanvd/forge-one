@@ -1,10 +1,18 @@
-.App {
-  text-align: center;
-}
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+* {
+  font-family: "Rocgrotesk" !important;
+}
+
+.highlight {
+  padding: 4px 5px 2px 5px;
+  background-color: hsla(200.69, 80.11%, 35.49%, 1);
+}
+
+.layout {
+  min-height: 100vh;
 }
 
 @media (prefers-reduced-motion: no-preference) {

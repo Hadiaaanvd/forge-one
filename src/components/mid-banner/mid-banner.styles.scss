@@ -1,0 +1,102 @@
+.mid-banner-component{
+    height:70vh;
+    position: relative;
+    z-index: 100;
+    margin-top:-100px;
+    &.gap{
+        margin:100px 0 ;
+    }
+   
+    .border-bottom{
+        top:0;
+        z-index: -100;
+        content:"";
+        width:100%;
+        position: absolute;
+        background-color: hsla( 200.69,80.11%,35.49% ,1);
+        height:calc(100% + 7px);
+        clip-path: url(#section-divider-643dca23353a5d3c147cc37e);
+    }
+    .border-top{
+        
+        clip-path: url(#section-divider-643dca23353a5d3c147cc37e);
+        position: absolute;
+        top:-59.2vh;
+        background-color: hsla( 200.69,80.11%,35.49% ,1);
+        height:70vh;
+        width:100%;
+        z-index: 10;
+    }
+    .curve-top{
+        clip-path: url(#section-divider-643dca23353a5d3c147cc37e);
+        position: absolute;
+        top:-60vh;
+        background-color:rgb(255, 255, 255);
+        height:70vh;
+        width:100%;
+        z-index: 10;
+    }
+    .mid-banner{
+        position: relative;
+        z-index:1;
+        height:70vh;
+        min-height:400px;
+        display: flex;
+     
+        background-size: cover;
+        clip-path: url(#section-divider-643dca23353a5d3c147cc37e);
+        &.overlay {
+            &::before{
+                content: "";
+                position: absolute;
+                z-index:10;
+                width:100%;
+                height:100%;
+                background:rgba(27, 106, 158, 0.433);
+                top:0;
+                clip-path: url(#section-divider-643dca23353a5d3c147cc37e);
+            }
+        }
+       
+        .text{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+            margin:0 auto;
+            height:100%;
+            color:white;
+            max-width:90%;
+            width:670px;
+            z-index:70;
+            margin-top:40px;
+            position: relative;
+            font-size:calc(10px + 0.7vw);
+            div{
+                margin-top:20px;
+            }
+        }
+        .left-text{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            height:100%;
+            color:white;
+            z-index:70;
+            margin-top:40px;
+            position: relative;
+            .heading{
+                font-weight: 700;
+                font-size:calc(12px + 2.5vw);
+            }
+            .description{
+                max-width:90%;
+                width:450px;
+                margin-top:10px;
+                font-size:calc(12px + 0.6vw);
+            }
+          
+        }
+    }
+}

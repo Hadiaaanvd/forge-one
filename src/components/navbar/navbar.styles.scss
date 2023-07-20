@@ -1,0 +1,38 @@
+.navbar-component{
+    z-index: 1000;
+    position: absolute;
+    width:100%;
+    top:0;
+    .navbar-brand{
+        cursor:pointer;
+        img{
+            width:200px;
+            object-fit: contain;
+            @media only screen and (max-width: 768px) {
+                height:50px; 
+            }
+        }
+    }
+
+    .navbar{
+        padding:10px 4vw;
+        width:100%;
+        display: flex;
+        justify-content: space-between;
+        #responsive-navbar-nav{
+         
+            justify-content: flex-end;
+        }
+        .navbar-nav{
+            display: flex;
+            align-items: center;
+        }
+        .nav-link{
+            margin:0 10px;
+            color:white;
+            font-weight: 600 !important;
+        }
+    }
+
+   
+}
