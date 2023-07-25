@@ -9,14 +9,17 @@ import image2 from "../../assets/home/image2.png";
 import { imagesContent, imagesSlider } from "../../utils/sliderData";
 
 import "./home.styles.scss";
+import PrimaryBtn from "../../components/primary-btn/primary-btn.component";
+import ContactForm from "../../components/contact-form/contact-form.component";
 
 const Home = () => {
   return (
     <div className="home-page">
-      <Banner backgroundImage={backgroundImage} overlay={true} />
+      <Banner backgroundImage={backgroundImage} />
       <HomeSlider imagesContent={imagesContent} />
       <MidBanner gap backgroundImage={image2} overlay={true} />
       <HomeSlider imagesContent={imagesSlider} />
+      <ContactForm />
     </div>
   );
 };

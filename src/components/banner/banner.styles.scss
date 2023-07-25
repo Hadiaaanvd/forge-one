@@ -1,5 +1,5 @@
 .banner-component{
-    height:70vh;
+    height:80vh;
     z-index: 101;
     position: relative;
     .border{
@@ -12,7 +12,6 @@
         height:calc(100% + 7px);
         clip-path: url(#section-divider-643dca23353a5d3c147cc37e);
     }
-
     .section-divider-display{
         --stroke-thickness: 6px; --stroke-dasharray: 0; --stroke-linecap: square; --section-divider-stroke-color: hsl(200.69, 80.11%, 35.49%);
     }
@@ -43,7 +42,7 @@
                 font-weight: 600;
                 line-height: 1.3;
                 letter-spacing: 4px;
-                font-size:calc(12px + 2.5vw);
+                font-size:calc(12px + 4vw);
                 
             }
             .description{
@@ -53,8 +52,25 @@
                 font-size:calc(12px + 0.6vw);
                 color:white;
                 z-index:70;
-                margin-top:40px;
+                font-weight: 700;
+                margin-top:-20px;
             }
+        }
+        .header-container{
+           
+            display:flex;
+            justify-content: space-between;
+            align-items: center;
+            width:100%;
+            color:white;
+          .video{
+            font-weight: 600;
+            width:500px;
+            display: flex;
+            align-items: flex-end;
+            flex-direction: column;
+            justify-content:flex-end;
+          }
         }
     }
 }

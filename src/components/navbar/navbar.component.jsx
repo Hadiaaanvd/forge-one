@@ -21,13 +21,13 @@ const Navbarr = () => {
             <Nav.Link onClick={() => navigate("/gun-detection")}>
               Gun Detection
             </Nav.Link>
-            <Nav.Link eventKey={2} onClick={() => navigate("")}>
+            <Nav.Link onClick={() => navigate("/tailor-made-solutions")}>
               Tailormade Solutions
             </Nav.Link>
-            <Nav.Link eventKey={2} onClick={() => navigate("")}>
-              Contact Us
-            </Nav.Link>
-            <PrimaryBtn>Request a Demo</PrimaryBtn>
+            <Nav.Link onClick={() => navigate("/contact")}>Contact Us</Nav.Link>
+            <PrimaryBtn onClick={() => navigate("/contact")}>
+              Request a Demo
+            </PrimaryBtn>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

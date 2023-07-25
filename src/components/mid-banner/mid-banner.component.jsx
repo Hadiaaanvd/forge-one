@@ -9,7 +9,7 @@ const MidBanner = ({ gap, backgroundImage, overlay, heading, description }) => {
       <div className="border-bottom"></div>
       <div className="curve-top"></div>
       <div
-        className={`mid-banner ${overlay ? "overlay" : ""}`}
+        className={`mid-banner overlay`}
         style={{ backgroundImage: `url(${backgroundImage})` }}
       >
         {overlay ? (

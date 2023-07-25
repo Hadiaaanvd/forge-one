@@ -6,7 +6,7 @@
     .navbar-brand{
         cursor:pointer;
         img{
-            width:200px;
+            width:170px;
             object-fit: contain;
             @media only screen and (max-width: 768px) {
                 height:50px; 
@@ -15,12 +15,11 @@
     }
 
     .navbar{
-        padding:10px 4vw;
+        padding:30px 4vw;
         width:100%;
         display: flex;
         justify-content: space-between;
         #responsive-navbar-nav{
-         
             justify-content: flex-end;
         }
         .navbar-nav{
