@@ -52,7 +52,7 @@ const Banner = ({ backgroundImage, video, heading, description, nogap }) => {
                   <video width="500" height="400" controls>
                     <source src={video1} type="video/mp4" />
                   </video>
-                  Actual Gun Detection Image from Valiant Security Camera during
+                  Actual Gun Detection Image from Forge One Camera during
                   Active-Shooter Demo Scenario
                 </div>
               )}

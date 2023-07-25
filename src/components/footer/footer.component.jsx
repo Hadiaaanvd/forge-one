@@ -21,7 +21,7 @@ const Footer = ({ gap, rotate }) => {
               src={logo}
               alt=""
             />
-            <span>info@valiantsecurity.net</span>
+            <span>info@forgeone.net</span>
           </div>
         </div>
       </div>

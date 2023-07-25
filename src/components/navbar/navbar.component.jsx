@@ -18,7 +18,7 @@ const Navbarr = () => {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav>
-            <Nav.Link onClick={() => navigate("")}>Valiant Security</Nav.Link>
+            <Nav.Link onClick={() => navigate("")}>Forge One</Nav.Link>
             <Nav.Link onClick={() => navigate("/gun-detection")}>
               Gun Detection
             </Nav.Link>

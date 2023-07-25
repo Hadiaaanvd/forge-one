@@ -14,9 +14,8 @@ const MidBanner = ({ gap, backgroundImage, overlay, heading, description }) => {
       >
         {overlay ? (
           <div className="text">
-            Valiant Security is a Gun Detection as a Service Company. We work
-            with your already existing cameras and supplement cameras as needed
-            to build a
+            Forge One is a Gun Detection as a Service Company. We work with your
+            already existing cameras and supplement cameras as needed to build a
             <span className="highlight">
               &nbsp;Perimeter Controlled Gun Detection Space.
             </span>

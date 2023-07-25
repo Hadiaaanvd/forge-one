@@ -10,7 +10,7 @@ const ContactForm = () => {
         <h2>Contact Us</h2>
         <p>
           Contact us for a demo, onsite evaluation, or any integration questions
-          at info@valiantsecurity.net
+          at info@forgeone.net
         </p>
         <div className="roww">
           <input className="field" type="text" placeholder="First Name" />{" "}
