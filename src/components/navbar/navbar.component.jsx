@@ -1,17 +1,18 @@
 import React from "react";
-import logo from "../../assets/logo.png";
-
-import { useNavigate } from "react-router-dom";
 import { Nav, Navbar } from "react-bootstrap";
-import "./navbar.styles.scss";
+import { useNavigate } from "react-router-dom";
+
+import logo from "../../assets/logo.png";
 import PrimaryBtn from "../primary-btn/primary-btn.component";
+
+import "./navbar.styles.scss";
 const Navbarr = () => {
   const navigate = useNavigate();
 
   return (
     <div className="navbar-component">
       <Navbar collapseOnSelect expand="lg">
-        <Navbar.Brand href="#home">
+        <Navbar.Brand onClick={() => navigate("")}>
           <img src={logo} alt="" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />

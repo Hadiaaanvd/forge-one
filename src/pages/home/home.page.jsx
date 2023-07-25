@@ -1,16 +1,15 @@
 import React from "react";
 
+import image2 from "../../assets/home/image2.png";
+import backgroundImage from "../../assets/banner.jpeg";
 import Banner from "../../components/banner/banner.component";
 import MidBanner from "../../components/mid-banner/mid-banner.component";
 import HomeSlider from "../../components/home-slider/home-slider.component";
-import backgroundImage from "../../assets/banner.jpeg";
-import image2 from "../../assets/home/image2.png";
+import ContactForm from "../../components/contact-form/contact-form.component";
 
 import { imagesContent, imagesSlider } from "../../utils/sliderData";
 
 import "./home.styles.scss";
-import PrimaryBtn from "../../components/primary-btn/primary-btn.component";
-import ContactForm from "../../components/contact-form/contact-form.component";
 
 const Home = () => {
   return (
