@@ -3,16 +3,10 @@ import video1 from "../../assets/home/video.mp4";
 
 import Overlay from "../overlay/overlay.component";
 
-import "./banner.styles.scss";
-const Banner = ({ backgroundImage, video, heading, description, nogap }) => {
+import "./simple-banner.styles.scss";
+const SimpleBanner = ({ backgroundImage, video, heading, description }) => {
   return (
-    <div
-      className="banner-component"
-      style={{
-        marginTop: nogap ? "-140px" : 0,
-      }}
-    >
-      <div className="border"></div>
+    <div className="simple-banner-component">
       <div
         className="banner-container"
         style={{
@@ -39,7 +33,6 @@ const Banner = ({ backgroundImage, video, heading, description, nogap }) => {
             ></path>
           </clipPath>
         </svg>
-
         <div className="banner-content container">
           {heading ? (
             <div className="header-container">
@@ -66,8 +59,9 @@ const Banner = ({ backgroundImage, video, heading, description, nogap }) => {
           )}
         </div>
       </div>
+      <div className="curve"></div>
     </div>
   );
 };
 
-export default Banner;
+export default SimpleBanner;

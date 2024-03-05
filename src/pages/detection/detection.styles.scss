@@ -1,26 +1,30 @@
 .detection-page{
-    .mid-banner-component,.border-top,.curve-top, .mid-banner{
-        height:65vh !important;
-        
+  
+    .banner-container , .curve{
+        clip-path: url(#section-divider-643dca23353a5d3c147cc37e) !important;
+      
     }
-    .changez-index{
-        .border{
-            height:100% !important;
+    .simple-banner-component{
+        &:nth-child(1){
+            height:90vh;
+            .curve{height:90vh}
         }
-        .banner-component{
-            z-index:90;
-            height:65vh !important;
+        &:nth-child(2){
+            z-index: 100;;
+            margin-top: calc(-4.5vw - 120px);
         }
+        &:nth-child(3){
+            z-index: 98;
+            margin-top: calc(-4.5vw - 120px);
+        }
+      
     }
-    .banner-component{
-        height:100vh;
-    }
-
     .overlay-component {
         background: rgba(0, 0, 0, 0.663);
         background-image: linear-gradient(to top, hsla(0, 0%, 0%, 0.3), hsla(0, 0%, 0%, 0.3));
     }
 
+  
 
     .overlay::before{
         background: rgba(1, 34, 64, 0.198) !important;

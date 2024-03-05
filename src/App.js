@@ -1,10 +1,9 @@
+import "bootstrap/dist/css/bootstrap.min.css";
 import { Route, Routes } from "react-router-dom";
-
 import ScrollToTop from "./components/scroll/scroll.jsx";
 
 import Layout from "./layout";
 
-import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 
 function App() {

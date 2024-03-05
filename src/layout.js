@@ -31,6 +31,7 @@ const Layout = () => {
           </Routes>
         </React.Suspense>
       </div>
+
       <Footer
         gap={location.pathname === "/"}
         rotate={location.pathname === "/tailor-made-solutions"}

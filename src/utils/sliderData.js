@@ -2,7 +2,7 @@ import image1 from "../assets/home/image4.jpeg";
 import image2 from "../assets/home/image6.jpeg";
 import image3 from "../assets/home/image1.png";
 
-import image4 from "../assets/home/image9.jpeg";
+// import image4 from "../assets/home/image9.jpeg";
 import image5 from "../assets/home/image7.jpeg";
 import image6 from "../assets/home/image8.jpeg";
 import image7 from "../assets/home/image5.jpeg";
@@ -29,12 +29,12 @@ export const imagesContent = [
 ];
 
 export const imagesSlider = [
-  {
-    image: image4,
-    heading: "Integrates with Your Existing Security Technology",
-    description:
-      "Our AI is able to use your existing security technology, and we will provide any supplemental cameras determined through an initial site assessment in order to provide the most optimal detection angles.",
-  },
+  // {
+  //   image: image4,
+  //   heading: "Integrates with Your Existing Security Technology",
+  //   description:
+  //     "Our AI is able to use your existing security technology, and we will provide any supplemental cameras determined through an initial site assessment in order to provide the most optimal detection angles.",
+  // },
   {
     image: image5,
     heading: "Phone Calls and Text Alerts - No App Required",

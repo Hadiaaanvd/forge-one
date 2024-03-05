@@ -3,73 +3,63 @@
     flex-direction: column;
     align-items: center;
     position: relative;
-    background-color: hsla( 200.69,80.11%,35.49% ,1);
+    background-color: rgb(87, 87, 87);
     &.rotate{
-        margin-top:-120px !important;
-        height: 320px;
         .border-top{
-            clip-path: url(#section-divider) !important;
+            display:none;
         }
+        margin-top:-15vh !important;
+   
         .footer-component{
-            &:before{
-                clip-path: url(#section-divider) !important;
-            }
+            padding:calc(15vh + 20px) 20px 20px 20px !important;
         }
-        .logo-container{
-            margin-top:50px;
-        }
+        
     }
     .footer-component{
-        
+        // min-height:10vw;
         width:100%;
-        height: 280px;
+       
         z-index: 50;
         position: relative; 
-        padding:150px 20px 50px 20px;
+        padding:calc(12vh + 20px) 20px 20px 20px;
         display: flex;
         justify-content: space-around;
         align-items: center;
         color:white;
-       
-
-        &:before{
-            content:"";
-            clip-path: url(#section-divider-643dca23353a5d3c147cc37e);
-            position: absolute;
-            top:-60vh;
-            background-color:rgb(255, 255, 255);
-            height: 70vh;
-            width:100%;
-        }
-      
     }
     .border-top{
-            
         clip-path: url(#section-divider-643dca23353a5d3c147cc37e);
         position: absolute;
-        top:-59.2vh;
-        background-color: hsla( 200.69,80.11%,35.49% ,1);
+        top:-60vh;
+        background-color:rgb(255, 255, 255);
         height:70vh;
         width:100%;
-        z-index: 50;
+        z-index: 10;
     }
-
+    a{
+        color:white !important;
+        text-decoration: none;
+    }
+    
     .logo-container{
         display: flex;
+        height:100%;
         align-items: center;
         justify-content: space-between;
+        a{
+            display: block;
+        }
         
     }
 
-  
- 
+   .container{
+    height:100%;
+   }
    
-    
-   
-    .logo{
+    .logo{    
         cursor:pointer;
-        height:calc(20px + 1.5vw);
-        filter: brightness(1.5);
+        height:calc(25px + 0.5vw);
+       
     }
    
 }

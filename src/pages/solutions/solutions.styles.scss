@@ -1,6 +1,26 @@
 .solutions-page{
-    .border , .banner-container, .mid-banner-component,.border-top,.curve-top, .mid-banner{
+    .banner-container , .curve{
         clip-path: url(#section-divider) !important;
+      
+    }
+    .simple-banner-component{
+        &:nth-child(1){
+            height:90vh;
+            .header-container{margin-top:0}
+            .curve{height:90vh}
+        }
+        &:nth-child(2){
+            z-index: 100;;
+            margin-top: calc(-4.5vw - 120px);
+        }
+        &:nth-child(3){
+            z-index: 98;
+            margin-top: calc(-4.5vw - 120px);
+        }
+        &:nth-child(4){
+            z-index: 95;
+            margin-top: calc(-4.5vw - 120px);
+        }
     }
     .heading{
         width:1000px;
@@ -20,25 +40,8 @@
         font-weight:700;
         font-size:calc(12px + 0.34vw) !important;
     }
-    .mid-banner-component,.border-top,.curve-top, .mid-banner{
-        height:70vh !important;
-        
-    }
-    .changez-index, .z-index-smallest{
-        .border{
-            height:100% !important;
-        }
-        .banner-component{
-            z-index:90;
-            height:67vh !important;
-        }
-    }
-    .z-index-smallest{
-        .banner-component{
-            z-index:60;
-        }
-
-    }
+  
+  
     .banner-component{
         height:100vh;
     }

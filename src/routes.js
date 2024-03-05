@@ -3,6 +3,7 @@ const Home = React.lazy(() => import("./pages/home/home.page"));
 const Contact = React.lazy(() => import("./pages/contact/contact.page"));
 const Solutions = React.lazy(() => import("./pages/solutions/solutions.page"));
 const Gun = React.lazy(() => import("./pages/detection/detection.page"));
+// const Coming = React.lazy(() => import("./pages/coming/coming.page"));
 
 export const finalRoutes = [
   {
@@ -11,6 +12,12 @@ export const finalRoutes = [
     exact: true,
     component: <Home />,
   },
+  // {
+  //   path: "/",
+  //   name: "coming",
+  //   exact: true,
+  //   component: <Coming />,
+  // },
   {
     path: "/contact",
     name: "contact",

@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Rocgrotesk"; /* you can choose any name */
-  src: url("./rocgrotesk-light.otf") format("truetype"); /* replace 'YourFontFile' with the actual file name */
+  src: url("./carol.ttf") format("truetype"); /* replace 'YourFontFile' with the actual file name */
   font-weight: normal;
   font-style: normal;
 }

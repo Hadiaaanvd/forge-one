@@ -6,10 +6,12 @@
     .navbar-brand{
         cursor:pointer;
         img{
-            width:170px;
+            position: absolute;
+            top:35px;
+            height:calc(25px + 0.5vw);
             object-fit: contain;
             @media only screen and (max-width: 768px) {
-                height:50px; 
+                height:20px; 
             }
         }
     }
@@ -22,14 +24,27 @@
         #responsive-navbar-nav{
             justify-content: flex-end;
         }
+      
         .navbar-nav{
             display: flex;
             align-items: center;
+           &:hover{
+            .nav-link{
+                color:rgba(255, 255, 255, 0.419);
+
+                }
+            }
         }
         .nav-link{
+            letter-spacing: 1.2px;
             margin:0 10px;
             color:white;
+            font-size:14px;
             font-weight: 600 !important;
+            &:hover{
+                color:white !important;
+            }
+          
         }
     }
 

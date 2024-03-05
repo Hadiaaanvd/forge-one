@@ -7,11 +7,33 @@ import image1 from "../../assets/home/image4.jpeg";
 import image2 from "../../assets/home/image6.jpeg";
 import image3 from "../../assets/home/image1.png";
 import "./detection.styles.scss";
+import SimpleBanner from "../../components/simple-banner/simple-banner.component";
 
 const Detection = () => {
   return (
     <div className="detection-page">
-      <Banner
+      <SimpleBanner
+        video
+        dark
+        heading="Detect"
+        description="Our AI Driven Technology reviews live video streams for visible threats."
+        backgroundImage={image3}
+        large
+      />
+      <SimpleBanner
+        dark
+        backgroundImage={image2}
+        heading="Confirm"
+        description="Our Threat Operations Team will filter any false alarms and confirm real threats."
+      />
+
+      <SimpleBanner
+        nogap={true}
+        heading="Notify"
+        description="Our AI Driven Technology reviews live video streams for visible threats."
+        backgroundImage={image1}
+      />
+      {/* <Banner
         video
         dark
         heading="Detect"
@@ -31,8 +53,8 @@ const Detection = () => {
           heading="Notify"
           description="Our AI Driven Technology reviews live video streams for visible threats."
           backgroundImage={image1}
-        />
-      </div>
+        /> */}
+      {/* </div> */}
     </div>
   );
 };

@@ -1,5 +1,9 @@
 .primary-btn-component{
+    display: flex;
     button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
         background-color: hsla( 200.69,80.11%,35.49% ,1);
         font-size: calc(.9 * 1rem);
         padding: 1.2em 2.004em;
@@ -8,5 +12,6 @@
         outline: none;
         border:0;
         color:white;
+        
     }
 }
